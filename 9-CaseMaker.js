@@ -1,6 +1,6 @@
 // Kata 9 - Case Maker
 
-const camelCase = function(input) {
+const camelCase = (input) => {
   const words = input.split(" ");
 
   // Set i to be 1 since we need to skip the first word

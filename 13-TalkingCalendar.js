@@ -2,7 +2,7 @@
 
 const options = { year: 'numeric', month: 'long', day: 'numeric' };
 
-const talkingCalendar = function (date) {
+const talkingCalendar = (date) => {
   const result = new Date(date);
   const formattedDate = result.toLocaleString('en-US', options);
   const day = formattedDate.split(' ')[1].replace(',', '');

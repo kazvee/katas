@@ -1,6 +1,6 @@
 // Kata 10 - Multiplication Table
 
-const multiplicationTable = function(maxValue) {
+const multiplicationTable = (maxValue) => {
   let result = "";
 
   for (let i = 1; i <= maxValue; i++) {

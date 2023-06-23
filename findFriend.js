@@ -77,7 +77,6 @@ const contacts = [
   }
 ];
 
-
 // Test code
 // findFriend(contacts, "Abbott", "phone") should return { name: "Costello", phone: "767 676 7676" }
 console.log(findFriend(contacts, "Abbott", "phone"));

@@ -1,6 +1,6 @@
 // Kata 12 - The Great Codeville Bake-off
 
-const chooseRecipe = function(bakeryA, bakeryB, recipes) {
+const chooseRecipe = (bakeryA, bakeryB, recipes) => {
 
   // Helper function
   const ingredientCheck = (bakery, recipeIngredients) => {

@@ -1,6 +1,6 @@
 // Kata 4 - Instructors Names
 
-const instructorWithLongestName = function (instructors) {
+const instructorWithLongestName = (instructors) => {
   let longNameCheck = 0;
   let longestName = 0;
 
@@ -29,6 +29,6 @@ console.log(
   ])
 );
 
-// Expected output:
+// Expected output
 // {name: "Jeremiah", course: "Web"}
 // {name: "Domascus", course: "Web"}

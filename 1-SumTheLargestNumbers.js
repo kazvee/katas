@@ -1,6 +1,6 @@
 // Kata 1 - Sum the Largest Numbers
 
-const sumLargestNumbers = function (data) {
+const sumLargestNumbers = (data) => {
   let firstLargest = 0;
   let secondLargest = 0;
 

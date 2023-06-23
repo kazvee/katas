@@ -1,6 +1,6 @@
 // Kata 8 - Repeating Numbers
 
-const repeatNumbers = function(data) {
+const repeatNumbers = (data) => {
   let result = '';
 
   for (let i = 0; i < data.length; i++) {

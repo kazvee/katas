@@ -1,7 +1,7 @@
 // Module 1: Week 4
 // Title Case - Kata
 
-const titleCase  = function(text) {
+const titleCase  = (text) => {
   if (text.length === 0) {
     return "";
   }

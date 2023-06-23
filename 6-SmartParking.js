@@ -72,7 +72,7 @@ console.log(
   )
 );
 
-// Expected output:
+// Expected output
 // [4, 0]
 // false
 // [3, 1]

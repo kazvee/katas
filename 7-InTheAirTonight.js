@@ -1,6 +1,6 @@
 // Kata 7 - In the Air Tonight
 
-const checkAir = function (samples, threshold) {
+const checkAir = (samples, threshold) => {
   let dirtyAirTally = 0;
 
   for (let i = 0; i < samples.length; i++) {
@@ -39,7 +39,7 @@ console.log(
   checkAir(["clean", "dirty", "clean", "dirty", "clean", "dirty", "clean"], 0.9)
 );
 
-// Expected output:
+// Expected output
 // Polluted
 // Polluted
 // Clean

@@ -1,6 +1,6 @@
 // Kata 2 - Conditional Sums
 
-const conditionalSum = function (values, condition) {
+const conditionalSum = (values, condition) => {
   let number = 0;
 
   for (let i = 0; i < values.length; i++) {
@@ -18,7 +18,7 @@ console.log(conditionalSum([1, 2, 3, 4, 5], "odd"));
 console.log(conditionalSum([13, 88, 12, 44, 99], "even"));
 console.log(conditionalSum([], "odd"));
 
-// Expected output:
+// Expected output
 // 6
 // 9
 // 144

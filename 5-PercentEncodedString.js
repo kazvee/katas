@@ -1,6 +1,6 @@
 // Kata 5 - Percent Encoded String
 
-let urlEncode = function (text) {
+let urlEncode = (text) => {
   text = text.trim();
   let urlEncodedString = "";
   let whiteSpace = " ";
@@ -20,7 +20,7 @@ console.log(urlEncode("Lighthouse Labs"));
 console.log(urlEncode(" Lighthouse Labs "));
 console.log(urlEncode("blue is greener than purple for sure"));
 
-// Expected output:
+// Expected output
 // Lighthouse%20Labs
 // Lighthouse%20Labs
 // blue%20is%20greener%20than%20purple%20for%20sure
